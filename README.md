@@ -10,3 +10,5 @@ If you have the following tools in the same location as mine on OS X then the pr
 * Vice tools to create a D64 disk image
 
 The static slides were initially created using [Petmate](https://nurpax.github.io/petmate/)
+
+[![Youtube Video From Emulator](https://img.youtube.com/vi/GHbPxBWjnU8/0.jpg)](https://www.youtube.com/watch?v=GHbPxBWjnU8)
