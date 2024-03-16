@@ -1,0 +1,21 @@
+{
+    "tasks": [
+        {
+            "type": "vs64",
+            "action": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "label": "build project"
+        },
+        {
+            "label": "create disk",
+            "dependsOn": "build project",
+            "type": "shell",
+            "command": "c1541 -format oldschool64,02 d64 build/oldschool.d64 -attach build/oldschool64.d64 -write build/oldschool64.prg oldschool64",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "oldschool64",
+    "description": "Project oldschool64",
+    "toolkit": "kick",
+    "sources": [
+        "src/loader.s"
+    ],
+    "build": "debug",
+    "definitions": [],
+    "includes": [],
+    "args": [],
+    "compiler": ""
+}
