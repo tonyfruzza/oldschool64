@@ -19,10 +19,11 @@ If you do not wish to use VS64, you can compile the project with the following:
 java -jar KickAss.jar -odir build -o build/oldschool64.prg src/loader.s
 ```
 
-There are two VS Code tasks defined:
+There are a few VS Code tasks defined:
 
 * The default build task will create the binary `build/oldschool64.prg`
 * If you have VICE toolset installed a D64 disk image can be created as as `build/oldschoold64.d64`
+* If you have [exomizer](https://csdb.dk/release/?id=204524) you can choose the compressed target to build `build/oldschool64c.prg`
 
 The static slides were initially created using
 [Petmate](https://nurpax.github.io/petmate/)
